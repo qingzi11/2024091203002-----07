@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jQuery.js"></script>
+    <style>
+      #daoxu{
+         position: relative;
+         left: 100px;
+      }
+      ul{
+         position: relative;
+         left: 50px;
+      }
+
+
+    </style>
+</head>
+<body>
+    <script>
+      let bun1= $("<button>"+"正序"+"</button>")
+      bun1.attr("id","zhengxu");
+      $("body").append(bun1);
+      let bun2= $("<button>"+"倒序"+"</button>")
+      bun1.attr("id","daoxu");
+      $("body").append(bun2);
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           $(btn).attr("id","1");
+           $(span).attr("id","2");
+           div.append(data)
+           $("body").append(div);
+           let count = 0
+           $("#1").on("click",function(){
+            count=count+1;
+            $("#2").text(count);
+           })
+        })
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           div.append(data)
+           $(btn).attr("id","3");
+           $(span).attr("id","4");
+           $("body").append(div);
+           let count = 0
+           $("#3").on("click",function(){
+            count=count+1;
+            $("#4").text(count);
+           })
+        })
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           div.append(data)
+           $(btn).attr("id","5");
+           $(span).attr("id","6");
+           $("body").append(div);
+           let count = 0
+           $("#5").on("click",function(){
+            count=count+1;
+            $("#6").text(count);
+           })
+        })
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           div.append(data)
+           $(btn).attr("id","7");
+           $(span).attr("id","8");
+           $("body").append(div);
+           let count = 0
+           $("#7").on("click",function(){
+            count=count+1;
+            $("#8").text(count);
+           })
+        })
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           div.append(data)
+           $(btn).attr("id","9");
+           $(span).attr("id","10");
+           $("body").append(div);
+           let count = 0
+           $("#9").on("click",function(){
+            count=count+1;
+            $("#10").text(count);
+           })
+        })
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           div.append(data)
+           $(btn).attr("id","11");
+           $(span).attr("id","12");
+           $("body").append(div);
+           let count = 0
+           $("#11").on("click",function(){
+            count=count+1;
+            $("#12").text(count);
+           })
+        })
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           div.append(data)
+           $(btn).attr("id","13");
+           $(span).attr("id","14");
+           $("body").append(div);
+           let count = 0
+           $("#13").on("click",function(){
+            count=count+1;
+            $("#14").text(count);
+           })
+        })
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           div.append(data)
+           $(btn).attr("id","15");
+           $(span).attr("id","16");
+           $("body").append(div);
+           let count = 0
+           $("#15").on("click",function(){
+            count=count+1;
+            $("#16").text(count);
+           })
+        })
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           div.append(data)
+           $(btn).attr("id","17");
+           $(span).attr("id","18");
+           $("body").append(div);
+           let count = 0
+           $("#17").on("click",function(){
+            count=count+1;
+            $("#18").text(count);
+           })
+        })
+        $.get("https://tenapi.cn/v2/yiyan",{},function(data){
+           //console.log(data);
+           let btn = $("<button>"+"点赞按钮"+"</button>")
+           let span = $("<span>"+"0"+"</span>");
+           let div= $("<div></div>");
+           div.append(span);
+           div.append(btn);
+           div.append(data)
+           $(btn).attr("id","19");
+           $(span).attr("id","20");
+           $("body").append(div);
+           let count = 0
+           $("#19").on("click",function(){
+            count=count+1;
+            $("#20").text(count);
+           })
+        })
+        $(bun1).on("click",function(){
+         $("body").children().sort(function(a,b){
+            return $(a).text().localeCompare($(b).text());
+         }).appendTo("body");
+        });
+        $(bun2).on("click",function(){
+         $("body").children().sort(function(a,b){
+            return $(b).text().localeCompare($(a).text());
+         }).appendTo("body");
+        })
+
+
+
+
+    </script>
+</body>
+</html>
